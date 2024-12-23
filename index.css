@@ -1,0 +1,86 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(17, 60, 95);
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.heading{
+    text-align: center;
+    justify-items: center;
+}
+img{
+    justify-items: center;
+    height: 80px;
+     width: 80px; 
+     border-radius: 50%;
+     margin-bottom: 20px;
+}
+.container, .sidebar{
+    display: flex;
+    flex-direction: column;
+   height: 400px;
+   padding: 30px;
+   width: 400px;
+   background-color: rgb(32, 32, 66);
+   border-radius: 10px;
+   box-shadow: 0px 0px 10px rgba(38, 34, 71, 1);
+   color: aliceblue;
+
+}
+.sidebar{
+    display: none;
+}
+.sidebar p{
+    text-align: center;
+    text-transform: uppercase;
+}
+.sidebar button{
+    margin-top: 10PX;
+    font-weight: bold;
+}
+.sidebar textarea{
+    width: 300px;
+    height: 200px;
+    
+}
+.buttons{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 95%;
+    margin-left: 7px;
+}
+button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    
+}
+#presentButton:hover{
+    cursor: pointer;
+    background-color: green;
+    border: none;
+    color: aliceblue;
+}
+#absentButton:hover{
+    cursor: pointer;
+    background-color: rgb(75, 26, 13);
+    border: none;
+    color: aliceblue;
+}
+#sickButton:hover{
+    cursor: pointer;
+    background-color: rgb(143, 158, 11);
+    border: none;
+    color: aliceblue;
+}
